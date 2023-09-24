@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <h1>Redirecionar links</h1>
+   <form method="post" action="{{ url_for('homepage')}}">
+      <h3>link original</h3>
+      <input name="link_original" type="text" required placeholder="url para encurtar">
+      <h3>caminho do link</h3>
+      <input name="caminho_link" type="text" required placeholder="url desejada">
+      <button type="submit">Enviar</button>
+   </form>
+
+</body>
+
+</html>
