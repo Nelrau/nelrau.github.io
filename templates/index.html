@@ -1,22 +1,79 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Adicione um arquivo CSS para estilizar sua página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Vendas - Plimbet</title>
 </head>
-
 <body>
-   <h1>Redirecionar links</h1>
-   <form method="post" action="{{ url_for('homepage')}}">
-      <h3>link original</h3>
-      <input name="link_original" type="text" required placeholder="url para encurtar">
-      <h3>caminho do link</h3>
-      <input name="caminho_link" type="text" required placeholder="url desejada">
-      <button type="submit">Enviar</button>
-   </form>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#biografia">Biografia</a></li>
+                <li><a href="#artigos">Artigos</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#galeria">Galeria de Fotos</a></li>
+            </ul>
+            <h1>Seja Bem-vindo ao Plimbet!</h1>
+            <p>Gestor de Vendas: Seu Nome</p>
+        </nav>    
+    </header>
+    
+    <section>
+        <h2>Gostaria de saber o que é trader esportivo?</h2>
+        <p></p>
+        <p>Nos sites de bolsa esportiva os trader fazem analises onde buscam padrões e resultados de competições, onde acertando ganham, errando perde. 
+        </p>
+    </section>
 
+    <section id="artigos">
+        <h2>Artigos Recentes</h2>
+        <!--<ul>
+            <li><a href="#">Título do Artigo 1</a></li>
+            <li><a href="#">Título do Artigo 2</a></li>
+            <li><a href="#">Título do Artigo 3</a></li>
+        </ul>-->
+    </section>
+    
+    <section>
+        <h2>Recursos</h2>
+        <p>Vou em breve disponibilizar recursos úteis relacionados ao nosso campo de atuação.</p>
+    </section>
+    
+    <section>
+        <h2>Inscreva-se</h2>
+        <p>Fique atualizado com nossas últimas novidades e insights.</p>
+        <a target="_blank" href="https://plimbet.com/register/d7566043-090d-4773-9778-912e4e3bddd2" class="btn">Inscreva-se</a>
+    </section>
+    <section id="contato">
+        <!-- Conteúdo da seção Contato -->
+        <h2>Zap</h2>
+    </section>
+
+    <section id="biografia">
+        <!-- Conteúdo da seção Biografia -->
+        <h2>Biografia</h2>
+        <p>Eu sou [Seu Nome], atualmente gestor da Plimbet. Minha jornada começou com serviços de TI, onde consertava computadores e me aprofundei em estudos de investimento. No entanto, foi quando entrei no mundo da inteligência artificial que minha vida mudou. Tentei criar meus próprios robôs e mergulhei na programação. Agora, descobri a Plimbet e acredito que seja a melhor forma de investir com segurança e alcançar um futuro melhor.</p>
+
+        <!-- Conteúdo da seção Artigos -->
+    </section>
+
+    <section id="recursos">
+        <!-- Conteúdo da seção Recursos -->
+    </section>
+
+    <section id="depoimentos">
+        <!-- Conteúdo da seção Depoimentos -->
+    </section>
+
+    <section id="galeria">
+        <!-- Conteúdo da seção Galeria de Fotos -->
+    </section>
+    <footer>
+        <p>Copyright © [Ano] - Plimbet</p>
+    </footer>
 </body>
-
 </html>
