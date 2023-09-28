@@ -1,0 +1,34 @@
+header {
+    text-shadow: 2px 2px 4px #010500;
+    background:linear-gradient(to bottom,rgb(0, 31, 0), rgb(24, 197, 1)); /* Cor de fundo do cabeçalho */
+    color: #02fc2b; /* Cor do texto do cabeçalho */
+}
+
+/* Estilize a navegação horizontal */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Torna a lista de navegação horizontal */
+}
+
+nav li {
+    margin-right: 20px; /* Espaçamento entre os itens de navegação */
+}
+
+nav a {
+    text-decoration: none;
+    color: #00e1ff; /* Cor dos links */
+}
+
+nav a:hover {
+    color:#f4f7f5; /* Efeito de sublinhado ao passar o mouse */
+}
+body {
+    background-color: #85cc8f;
+    color:#030a01
+}
+footer {
+    color: aqua;
+    background: linear-gradient(to top, #023309,#01272c);
+}
