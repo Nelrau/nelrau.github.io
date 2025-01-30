@@ -1,80 +1,94 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
+
 <head>
-    <link rel="stylesheet" href="styles.css"> <!-- Adicione um arquivo CSS para estilizar sua página -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cdi funciona</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <title>Página de Portfólio</title>
+  <meta charset="UTF-8" />
 </head>
+<script src="js/interacao.js" defer>
+</script>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#contato">Contato</a></li>
-                <li><a href="#biografia">Biografia</a></li>
-                <li><a href="#artigos">Artigos</a></li>
-                <li><a href="#recursos">Recursos</a></li>
-                <li><a href="#depoimentos">Depoimentos</a></li>
-                <li><a href="#galeria">Galeria de Fotos</a></li>
-            </ul>
-            <h1>Seja Bem-vindo!</h1>
-            <p>Cdi Oque è?<!--nome--></p>
-        </nav>    
-    </header>
-    
-    <section>
-        <h2>Gostaria de saber o que é CDI?</h2>
-        <p></p>
-        <p>. 
-        </p>
-    </section>
+  <header>
+    <div class="foto">
+      <img src="img/eu (5).jpg" alt="perfil" width="50px">
 
-    <section id="artigos">
-        <h2>Jogos Recentes:</h2>
+      <h1>Portfólio </h1>
+    </div>
+    <p class="desenvolvedor">Desenvolvedor WEB Front-End <button>light</button> </p>
+  </header>
+
+  <section>
+    <h2>Sobre mim</h2>
+    <p>
+      Estou como desenvolvedor de HTML, CSS por meio da 99freelancer
+    </p>
+  </section>
+
+  <section>
+    <h2>Habilidades</h2>
+    <div class="habilidades">
+      <div id="linguagem" class="habilidade">
+        <h3>Linguagens</h3>
         <ul>
-            <li><a target="_blank" href="https://ge.globo.com/agenda/#/">GE</a></li>
-            <li><a target="_blank" href="https://www.betfair.com/sport/football?selectedTabType=FEATURED">Betfair</a></li>
-            <li><a href="#"></a></li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
         </ul>
-    </section>
+      </div>
+
+      <!-- <div class="habilidade">
+        <h3>Tecnologias</h3>
+        <ol>
+          <li>React</li>
+          <li>Node</li>
+          <li>Express JS</li>
+          <li>Vite</li>
+          <li>SASS</li>
+          <li>Tailwind</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section> 
+    <h2>Projetos</h2>
+
+    <div>
+      <h3>Réplica do Site do Google</h3>
+      <img width="600" src="../Imagens/google.png" alt="Print do Projeto do Google" />
+      <a target="_blank" href="https://www.youtube.com/watch?v=0Ba6PVHMa0A">Clique aqui para acessar</a>
+    </div>
+
+    <div>
+      <h3>Réplica do Site do YouTube</h3>
+      <img width="600" src="../Imagens/youtube.png" alt="Print do Projeto do YouTube" />
+      <a target="_blank" href="https://www.youtube.com/live/w7sIMxxVELs">Clique aqui para acessar</a>
+    </div>
+
+    <div>
+      <h3>Réplica da Página de Login da Hashtag</h3>
+      <img width="600" src="../Imagens/tela-login.png" alt="Print do Projeto de Tela de Login" />
+      <a target="_blank" href="https://www.youtube.com/watch?v=9xh-CHyjNYc">Clique aqui para acessar</a>
+    </div>
+  </section>-->
+
+  <footer>
+    <button class="btn-informacao">Exibir Informações</button>
+    <div class="informacao ">
+    <h2>Informações de contato</h2><br>
+
     
-    <section>
-        <h2>Recursos</h2>
-        <p>Vou em breve disponibilizar recursos úteis relacionados ao nosso campo de atuação.</p>
-    </section>
-    
-    <section>
-        <h2>Inscreva-se</h2>
-        <p>Fique atualizado com nossas últimas novidades e insights.</p>
-        <a href="https://mpago.li/11kLEMn" class="btn">Inscreva-se</a>
-    </section>
-    <section id="contato">
-        <!-- Conteúdo da seção Contato -->
-        
-        <a target="_blank" href="https://wa.me/5521993409596"><h2>Zap</h2></a>
-    </section>
-
-    <section id="biografia">
-        <!-- Conteúdo da seção Biografia -->
-        <h2>Biografia</h2>
-        <p>Eu sou <!--nome-->, atualmente gestor da Plimbet. Minha jornada começou com serviços de TI, onde consertava computadores e me aprofundei em estudos de investimento. No entanto, foi quando entrei no mundo da inteligência artificial que minha vida mudou. Tentei criar meus próprios robôs e mergulhei na programação. Agora, descobri a Plimbet e acredito que seja a melhor forma de investir com segurança e alcançar um futuro melhor.</p>
-
-        <!-- Conteúdo da seção Artigos -->
-    </section>
-
-    <section id="recursos">
-        <!-- Conteúdo da seção Recursos -->
-    </section>
-
-    <section id="depoimentos">
-        <!-- Conteúdo da seção Depoimentos -->
-    </section>
-
-    <section id="galeria">
-        <!-- Conteúdo da seção Galeria de Fotos -->
-    </section>
-    <footer>
-        <p>Copyright © <!--ano-->- Plimbet</p>
-    </footer>
+      
+      <p>E-mail: XXX@YYY.COM</p>
+      <p>Telefone: XX XXXXX-XXXX</p>
+      <p>
+        Site:
+        <a target="_blank" href="https://www.hashtagtreinamentos.com">www.hashtagtreinamentos.com</a>
+      </p>
+    </div>
+  </footer>
 </body>
+
 </html>
