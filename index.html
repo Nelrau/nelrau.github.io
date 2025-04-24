@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<head><link rel="stylesheet" href="styles.css">
+
   <link rel="stylesheet" href="styles.css">
   <title>Página de Portfólio</title>
   <meta charset="UTF-8" />
 </head>
-<script src="https://github.com/Nelrau/nelrau.github.io/blob/mains/interacao.js" defer>
+  <script src="interacao.js"></script>
+  <script src="https://github.com/Nelrau/nelrau.github.io/blob/mains/interacao.js" defer>
+  
   const tagh2 = document.querySelector("h2")
-const button_dark = document.querySelector('button')
-const corpo = document.body
-const button_inform = document.querySelector(".btn-informacao")
-const inform = document.querySelector(".informacao")
+  const button_dark = document.querySelector('button')
+  const corpo = document.body
+  const button_inform = document.querySelector(".btn-informacao")
+  const inform = document.querySelector(".informacao")
 
-// tagh2.textContent = ("Sobre min:");
+  // tagh2.textContent = ("Sobre min:");
 
-// document.querySelectorAll("h2")[0].textContent = ("Sobre mim")
+  // document.querySelectorAll("h2")[0].textContent = ("Sobre mim")
 
-// textContent - conteudo de texto,
-// innerHTML - tag dentro de tag
-// innerText - ?
+  // textContent - conteudo de texto,
+  // innerHTML - tag dentro de tag
+  // innerText - ?
 
 
-// tagh2.style.backgroundColor = "black";
-// tagh2.style.width = "125px";
-// tagh2.style.padding = "5px";
+  // tagh2.style.backgroundColor = "black";
+  // tagh2.style.width = "125px";
+  // tagh2.style.padding = "5px";
 
-function light_dark() {
+  function light_dark() {
     if (corpo.classList.contains("light") ) {
         corpo.classList.toggle("light");
         button_dark.textContent = 'light';
@@ -36,10 +39,10 @@ function light_dark() {
         button_dark.textContent = 'dark';
 
     }
-};
-button_dark.addEventListener('click', light_dark);
+  };
+  button_dark.addEventListener('click', light_dark);
 
-button_inform.addEventListener('click', function () {
+  button_inform.addEventListener('click', function () {
     if (inform.classList.contains("visivel") ) {
         inform.classList.toggle("visivel");
         button_inform.textContent = 'Exibir informações';
@@ -48,9 +51,9 @@ button_inform.addEventListener('click', function () {
         inform.classList.toggle("visivel");
         button_inform.textContent = 'Ocultar informações';
     }
-})
-console.log(inform.classList)
-</script>
+  })
+  console.log(inform.classList)
+  </script>
 
 <body>
   <header>
